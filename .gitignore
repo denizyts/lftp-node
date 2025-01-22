@@ -4,3 +4,4 @@
 /src/.env
 /src/package-lock.json
 /src/package.json
+.gitignore
