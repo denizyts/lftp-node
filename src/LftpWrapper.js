@@ -69,10 +69,10 @@ class LftpWrapper {
     //path must include file name. 
     async downloadFile(local_path , remote_path) {         //if local target path is not given it will download it directory of nodejs file.
   
-    var cmd = this.base_cmd + ' get ' + remote_path + ' ' + local_path + '; bye"';
+    var cmd = this.base_cmd + ' get ' + remote_path + ' -o ' + local_path + '; bye"';
     console.log(cmd);
     await this.connectExec(cmd);
-    return a;
+    return this.a;
   }
   
     async uploadFile(local_path, remote_path) {
@@ -80,7 +80,7 @@ class LftpWrapper {
     var cmd = this.base_cmd + ' put ' + local_path + ' -o ' + remote_path + '; bye"';
     console.log(cmd);
     await this.connectExec(cmd);
-    return a;
+    return this.a;
   }
 
 

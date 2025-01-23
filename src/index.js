@@ -13,5 +13,5 @@ myWrapper.ls('pub/example').then((result) => {
 })
 
 //First parameter is local_path , second parameter is remote path.
-myWrapper.downloadFile('/Downloads' , 'pub/example/WinFormClient.png');
+myWrapper.downloadFile('/Users/denizyetis/Downloads' , 'pub/example/WinFormClient.png');
 
