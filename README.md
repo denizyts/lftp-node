@@ -6,7 +6,12 @@
   ftp, ftps connections this lftp wrapper node module implemented.
 
   
-  
+## Installation
+
+You can install with 
+~~~javascript  
+  npm i lftp-node
+~~~  
   
 ## lftp installation
 
